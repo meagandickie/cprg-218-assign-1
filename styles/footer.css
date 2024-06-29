@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.footer {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    background-color:#8b9e6c;
+    color: #3d230f;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.footer-info{
+    padding-left: 10px;
+
+}
+
+/*Footer Contact Social Media Links*/
+.footer-link{
+    text-decoration: none;
+    color: #3d230f;
+}
+
+.footer-bottom{
+    text-align: center;
+    font-weight: 500;
+}

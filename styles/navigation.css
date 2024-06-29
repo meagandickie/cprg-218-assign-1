@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #8b9e6c;
+  }
+  
+  .logo {
+    flex: 1fr;
+  }
+  
+  .nav {
+    flex: 1fr;
+    padding-right: 45px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0; 
+    margin: 0;
+  }
+  
+  .nav-item {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 35px; 
+  }
+
+  .nav-item a {
+    color: #3d230f;
+    text-decoration: none;
+  }
+   
+  a:hover{
+    color: #f4eBD7;
+  }
