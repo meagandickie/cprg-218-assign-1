@@ -4,22 +4,30 @@
 }
 
 .hero-text{
-     text-align:center;
+    text-align:center;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);   
     font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 30px;
     color: #f9ffef;
 }
 .explore-button{
     background-color: #3d280f;
+    height: 50px;
+    width: 500px;
     color: #f9ffef;
     text-align:center;
+    text-decoration: none;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 20px;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);   
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
+
