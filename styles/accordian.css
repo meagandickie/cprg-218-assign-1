@@ -1,0 +1,62 @@
+.container{
+
+}
+
+.accordion-section{
+    background-color:#8b9e6c;
+    color: #3d230f;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.accordion {
+    display: grid;
+    gap: 12px;
+}
+
+.accordion-item:target .accordion-content{
+    max-height: 500px;
+    overflow: auto;
+}
+.accordion-item{
+    display: grid;
+    grid-template-rows: auto 0;
+}
+
+.accordion-header{
+    background-color: #c8b197;
+     padding: 12px;
+     cursor: pointer;
+     display: grid;
+     grid-template-columns: 1fr auto;
+ }
+
+
+.accordion-content{
+    padding: 12px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    
+}
+
+a{
+    color: #3d230f;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #3d230f;
+}
+
+
+
+
+
+
+
