@@ -1,0 +1,24 @@
+
+.card-section{ 
+    background-color: #8b9e6c;
+    text-align: center;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    color: #3d230f;
+    /* margin: 10px 10px 10px 10px; */
+ 
+
+}
+
+.card-grid {
+    display: grid;
+    margin: 10px 10px 10px 10px;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+
+.card {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #3d230f;
+}
+
