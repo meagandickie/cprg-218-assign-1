@@ -13,15 +13,38 @@
 .card-grid {
     display: grid;
     margin: 10px 10px 10px 10px;
-    grid-template-columns: 33% 33% 33%;
+   
     align-items: center;
-
+    grid-template-columns: 1fr;
 }
+
+
 
 .card {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     text-align: center;
     color: #3d230f;
   
+}
+#producta{
+    border-radius: 15%;
+}
+#productb{
+    border-radius: 15%;
+}
+#productc{
+    border-radius: 15%;
+}
+@media (min-width: 1199px){
+    .card-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .card-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
 }
 
