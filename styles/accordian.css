@@ -13,16 +13,22 @@
 
 .accordion {
     display: grid;
+    /* justify-content: center; */
     gap: 12px;
 }
-
-.accordion-item:target .accordion-content{
+.accordion-item:target > .accordion-content{
+    display: block;
+    /* max-height: 500px; */
+    /* overflow: auto; */
+    background-color: #c8b197
+}
+/* .accordion-item:target, accordion-item:target> .accordion-content{
     max-height: 500px;
     overflow: auto;
-}
+} */
 .accordion-item{
     display: grid;
-    grid-template-rows: auto 0;
+    /* grid-template-rows: auto 0; */
 }
 
 .accordion-header{
@@ -35,10 +41,11 @@
 
 
 .accordion-content{
+    display: none;
     padding: 12px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+    /* max-height: 500px;
+    overflow: hidden; */
+    /* transition: max-height 0.3s ease; */
     
 }
 
@@ -53,8 +60,18 @@ a:link{
 a:visited{
     color: #3d230f;
 }
-
-
+/* mobile */
+@media screen and (min-width: 390px){ 
+    .container {
+        max-width: 100%;
+    }
+}
+/* Laptop */
+@media screen and (min-width: 1248px) {
+    .accordion-item {
+        max-width: 60%;
+    }
+}
 
 
 
