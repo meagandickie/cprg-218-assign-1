@@ -1,0 +1,26 @@
+.content-section {
+    background-color: #8b9e6c;
+    color: #3d230f;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2 {
+    font-family: 'Beth Ellen';
+    src: url('fonts/BethEllen-Regular.tff') format('tff');
+    font-size: 35px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.video {
+    width: 958px;
+    height: 539px;}
