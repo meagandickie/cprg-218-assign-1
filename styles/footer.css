@@ -1,15 +1,14 @@
 .footer {
-    background-color: #8b9e6c;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    background-color: #8b9e6c; 
     color: #3d230f;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 20px;
-    width: 100%;
     padding: 10px 0;
-    text-align: center;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    text-align: left;
+    z-index: 1;
     width: 100%;
-    z-index: 100%;
 }
 
 .footer-content {
@@ -40,10 +39,11 @@
     text-align: center;
 }
 
+/*  Desktop Media Query */
 @media screen and (min-width: 768px) {
     .footer-content {
-        flex-direction: row; /* Switch back to horizontal layout */
-        justify-content: space-between; /* Distribute items evenly */
+        flex-direction: row;
+        justify-content: space-between;
 }
 .footer-bottom{
     padding-bottom: 10px;

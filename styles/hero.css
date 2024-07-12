@@ -1,8 +1,9 @@
 .hero-banner {
+    text-align: center;
     position: relative;
     padding: 100px 0; 
-    text-align: center;
-    overflow: hidden; 
+    overflow: hidden;
+    z-index: -1;  
 }
 
 .hero-image {
@@ -12,18 +13,18 @@
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.7;
+    opacity: 1;
     z-index: -1; 
 }
 
-.hero-text {
+.hero-text{
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 30px;
-    color: #3d280f;
-    z-index: 1; 
-    position: relative; 
+    color:#3d280f;
+    position: relative;
     padding: 0 20px;
+    z-index: -1;
 }
 
 .hero-text p{
@@ -32,30 +33,39 @@
 }
 
 .explore-button {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 20px;
     background-color: #3d280f;
     color: #f9ffef;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    padding: 12px 24px; 
+    padding: 12px 24px;
     border: none;
-    border-radius:.25rem;
+    border-radius: 0.25rem;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
     margin-top: 20px;
+    /*transition: background-color 0.3s, color 0.3s; */
 }
 
-/* Media Query for Desktop */
+/* Doesnt work for some reason
+button.explore-button:hover {
+    background-color: #dbd7d2;
+    color: #ad9898;
+}
+
+*/
+    
+/*  Desktop Media Query */
 @media screen and (min-width: 768px) {
     .hero-image img {
+    color: #ad9898;
         width: 100vw; 
         height: 100vh; 
         background-repeat: repeat;
-
     }
 
     .hero-text {
         font-size: 36px; 
-        padding-top: 50px; /
+        padding-top: 50px;
     }
 }

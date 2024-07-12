@@ -1,8 +1,8 @@
 .card-section {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    text-align: center;
     background-color: #c8b197;
     color: #3d230f;
-    text-align: center;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     padding: 20px;
 }
 
@@ -21,6 +21,20 @@
 .card {
     text-align: center;
     color: #3d230f;
+}
+
+.card-item a{
+    color: #3d230f;
+    text-decoration: none;
+}
+
+.card-item a:hover{
+    color: #f4eBD7;
+    text-decoration: none;
+}
+
+.card h3{
+    font-weight: 600;
 }
 
 #producta, #productb, #productc {
