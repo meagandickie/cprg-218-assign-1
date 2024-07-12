@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!--Google font-->
-    <!--Filler Font (Montserrat). Change it to your liking!-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -23,7 +22,7 @@
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/products.css">
-    <link rel="stylesheet" href="styles/accordian.css">
+    <link rel="stylesheet" href="styles/accordion.css">
     <link rel="stylesheet" href="styles/footer.css">
 
 </head>
@@ -114,29 +113,28 @@
         </section>
 
         <!-- Accordion Section -->
-         <!--Filler info fr ChatGPT. Set as Shipping FAQS but you can change it to your liking!-->
-        <section class="accordion-section">
-            <div class="container">
+
+         <section class="accordion-section">
+            <div class="accordion-container">
                 <h2>Shipping FAQs</h2>
 
                 <!-- Accordion -->
                 <div class="accordion">
-
                     <!-- Accordion Item 1 -->
-                    <div class="accordion-item" id="item1">
-                        <div class="accordion-header">
-                            <h3><a href="#item1">Do you offer shipping?</a></h3>
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                            <h3>Do you offer shipping?</h3>
                             <span class="accordion-icon">+</span>
                         </div>
                         <div class="accordion-content">
                             <p>Yes, we offer shipping for all our pottery items.</p>
                         </div>
                     </div>
-
+        
                     <!-- Accordion Item 2 -->
-                    <div class="accordion-item" id="item2">
-                        <div class="accordion-header">
-                            <h3><a href="#item2">How much does shipping cost?</a></h3>
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                            <h3>How much does shipping cost?</h3>
                             <span class="accordion-icon">+</span>
                         </div>
                         <div class="accordion-content">
@@ -144,22 +142,22 @@
                                 You can get an estimate during checkout.</p>
                         </div>
                     </div>
-
+        
                     <!-- Accordion Item 3 -->
-                    <div class="accordion-item" id="item3">
-                        <div class="accordion-header">
-                            <h3><a href="#item3">Do you offer international shipping?</a></h3>
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                            <h3>Do you offer international shipping?</h3>
                             <span class="accordion-icon">+</span>
                         </div>
                         <div class="accordion-content">
                             <p>Yes, we ship internationally to most countries.</p>
                         </div>
                     </div>
-
+        
                     <!-- Accordion Item 4 -->
-                    <div class="accordion-item" id="item4">
-                        <div class="accordion-header">
-                            <h3><a href="#item4">How long will it take to receive my order?</a></h3>
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                            <h3>How long will it take to receive my order?</h3>
                             <span class="accordion-icon">+</span>
                         </div>
                         <div class="accordion-content">
@@ -167,11 +165,11 @@
                                 International orders may take longer due to customs.</p>
                         </div>
                     </div>
-
+        
                     <!-- Accordion Item 5 -->
-                    <div class="accordion-item" id="item5">
-                        <div class="accordion-header">
-                            <h3><a href="#item5">Can I track my order?</a></h3>
+                    <div class="accordion-item">
+                        <div class="accordion-header" tabindex="0" role="button" aria-expanded="false">
+                            <h3>Can I track my order?</h3>
                             <span class="accordion-icon">+</span>
                         </div>
                         <div class="accordion-content">
@@ -181,7 +179,7 @@
                 </div>
             </div>
         </section>
-
+        
     </main>
 
     <!-- Footer Section -->
@@ -227,6 +225,9 @@
             </div>
         </div>
     </footer>
+
+     <!-- JavaScript File -->
+     <script src="java.js"></script>
 
 </body>
 </html>
