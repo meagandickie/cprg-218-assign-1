@@ -1,14 +1,15 @@
 .accordion-section {
   background-color: #8b717b;
   color: #3d230f;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   padding: 20px;
 }
 
 .accordion-section h2 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 .accordion {

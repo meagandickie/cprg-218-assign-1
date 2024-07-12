@@ -11,7 +11,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);   
-    font-family: Montserrat, Helvetica, Arial, sans-serif; 
+    font-family: "Beth Ellen", cursive;
     font-weight: 400;
     font-size: 30px;
     color: #f9ffef;
@@ -30,7 +30,7 @@
     color: #f9ffef;
     text-align:center;
     text-decoration: none;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 20px;
     position: absolute;
     top: 60%;
