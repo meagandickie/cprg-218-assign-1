@@ -1,45 +1,61 @@
-.hero-banner{
-    display: grid;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
+.hero-banner {
+    position: relative;
+    padding: 100px 0; 
+    text-align: center;
+    overflow: hidden; 
 }
 
-.hero-text{
-    text-align:center;
+.hero-image {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-    font-family: "Beth Ellen", cursive;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    z-index: -1; 
+}
+
+.hero-text {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 30px;
-    color: #f9ffef;
+    color: #3d280f;
+    z-index: 1; 
+    position: relative; 
+    padding: 0 20px;
 }
 
-
-#hero-image {
-   width: auto;
-  height: auto;
+.hero-text p{
+    color: #3d280f;
+    font-weight: 400;
 }
 
-.explore-button{
+.explore-button {
     background-color: #3d280f;
-    height: 50px;
-    width: 500px;
     color: #f9ffef;
-    text-align:center;
-    text-decoration: none;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 20px;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);   
-    border: 1px solid transparent;
-    border-radius: .25rem;
+    padding: 12px 24px; 
+    border: none;
+    border-radius:.25rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-/* test */
+/* Media Query for Desktop */
+@media screen and (min-width: 768px) {
+    .hero-image img {
+        width: 100vw; 
+        height: 100vh; 
+        background-repeat: repeat;
 
-/* https://www.pexels.com/photo/brown-ceramic-pots-2162938/ */
+    }
+
+    .hero-text {
+        font-size: 36px; 
+        padding-top: 50px; /
+    }
+}

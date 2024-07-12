@@ -53,7 +53,6 @@
         height: auto; 
     }
 }
-
 /* Media Query for Desktop */
 @media screen and (min-width: 768px) {
     .content-column {

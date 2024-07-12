@@ -16,9 +16,15 @@
 
 .logo img {
   width: 100%; 
-  max-width: 400px; 
+  max-width: 100px; 
   height: auto; 
 }
+
+.logo img {
+  max-width: 80px; 
+  height: auto; 
+}
+
 
 .nav {
   flex: 1; 
@@ -31,16 +37,15 @@
 
 .nav-list-mobile {
   display: flex; 
-  gap: 25px; 
+  gap: 5px; 
   list-style-type: none; 
 }
 
 .fa-solid {
   color: #3d230f;
-  font-size: 25px;
-  margin-left: 65px;
+  font-size: 20px;
+  margin-left: 12px;
 }
-
 .nav-item {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif; /* Specify font family */
   font-weight: 500; 
@@ -61,6 +66,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .logo img {
+    max-width: 200px; 
+    height: auto; 
+  }
   .nav-list {
       display: flex; 
       justify-content: flex-end;
@@ -71,4 +80,7 @@
   .nav-list-mobile {
       display: none;
   }
+
+
 }
+
