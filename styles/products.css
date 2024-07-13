@@ -41,7 +41,7 @@
     border-radius: 15%;
 }
 
-/* Media Queries */
+/* Media Queries for Large Screens*/
 @media (min-width: 1199px) {
     .card-grid {
         grid-template-columns: 1fr 1fr 1fr;
@@ -49,6 +49,7 @@
     }
 }
 
+/* Media Queries for Tablets */
 @media (min-width: 768px) and (max-width: 1199px) {
     .card-grid {
         grid-template-columns: 1fr 1fr;

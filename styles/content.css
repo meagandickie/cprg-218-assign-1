@@ -36,9 +36,10 @@
 
 .video {
     width: 100%; 
+    height: auto;
 }
 
-/* Media Queries for Mobile Devices */
+/* Mobile Media Query */
 @media screen and (max-width: 425px) {
     .content-column {
         max-width: 100%;
@@ -46,25 +47,27 @@
 
     .video-container {
         max-width: 100%; 
-        margin: 15px auto; }
+        margin: 15px auto;}
 
-    .video iframe {
+    .video {
         width: 100%;
         height: auto; 
     }
 }
-/* Media Query for Desktop */
+
+/* Desktop Media Query*/
 @media screen and (min-width: 768px) {
     .content-column {
-        max-width: 900px; }
-
-    .video-container {
-        max-width: 900px; 
-        margin: 30px auto; 
+        max-width: 60%;
     }
 
-    .video iframe {
-        width: 100%; 
-        height: 400px; 
+    .video-container {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
     }
 }
